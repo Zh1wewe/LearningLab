@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "learning-lab-backend"
+version = "0.1.0"
+description = "Backend for LearningLab"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+sqlalchemy = "^2.0.29"
+chromadb = "^0.4.24"
+sentence-transformers = "^2.6.1"
+pydantic-settings = "^2.2.1"
+python-dotenv = "^1.0.1"
+httpx = "^0.27.0"
+openai = "^1.14.0"
+tiktoken = "^0.6.0"
+tavily-python = "^0.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
